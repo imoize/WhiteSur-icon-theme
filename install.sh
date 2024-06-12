@@ -14,8 +14,8 @@ fi
 
 SRC_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-THEME_NAME=WhiteSur
-COLOR_VARIANTS=('' '-light' '-dark')
+THEME_NAME=Nika
+COLOR_VARIANTS=('' '-dark')
 THEME_VARIANTS=('' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-grey' '-nord')
 
 themes=()
@@ -29,7 +29,6 @@ cat << EOF
     -d, --dest DIR          Specify destination directory (Default: $DEST_DIR)
     -n, --name NAME         Specify theme name (Default: $THEME_NAME)
     -t, --theme VARIANT     Specify theme color variant(s) [default|purple|pink|red|orange|yellow|green|grey|nord|all] (Default: blue)
-    -a, --alternative       Install alternative icons for software center and file-manager
     -b, --bold              Install bolder panel icons version (1.5px size)
 
     -r, --remove,
@@ -63,10 +62,6 @@ install() {
     cp -r "${SRC_DIR}"/src/{actions,animations,apps,categories,devices,emblems,mimes,places,preferences} "${THEME_DIR}"
     cp -r "${SRC_DIR}"/src/status/{16,22,24,32,symbolic}                                     "${THEME_DIR}"/status
 
-    if [[ ${black:-} == 'true' ]]; then
-      sed -i "s/#ffffff/#363636/g" "${THEME_DIR}"/status/{16,22,24}/*
-    fi
-
     if [[ ${bold:-} == 'true' ]]; then
       cp -r "${SRC_DIR}"/bold/*                                                              "${THEME_DIR}"
     fi
@@ -86,33 +81,9 @@ install() {
     rm -rf "${THEME_DIR}"/places/scalable/user-trash{'','-full'}-dark.svg
 
     cp -r "${SRC_DIR}"/links/{actions,apps,categories,devices,emblems,mimes,places,status,preferences} "${THEME_DIR}"
+
     ln -s "${THEME_DIR}"/preferences/32 "${THEME_DIR}"/preferences/22
-  fi
 
-  if [[ ${color} == '-light' ]]; then
-    mkdir -p                                                                                 "${THEME_DIR}"/status
-    cp -r "${SRC_DIR}"/src/status/{16,22,24}                                                 "${THEME_DIR}"/status
-
-    if [[ ${bold:-} == 'true' ]]; then
-      cp -r "${SRC_DIR}"/bold/status/{16,22,24}                                              "${THEME_DIR}"/status
-    fi
-
-    # Change icon color for light theme
-    sed -i "s/#ffffff/#363636/g" "${THEME_DIR}"/status/{16,22,24}/*
-    cp -r "${SRC_DIR}"/links/status/{16,22,24}                                               "${THEME_DIR}"/status
-
-    cd ${dest}
-    ln -s ../${name}${theme}/actions ${name}${theme}-light/actions
-    ln -s ../${name}${theme}/animations ${name}${theme}-light/animations
-    ln -s ../${name}${theme}/apps ${name}${theme}-light/apps
-    ln -s ../${name}${theme}/categories ${name}${theme}-light/categories
-    ln -s ../${name}${theme}/devices ${name}${theme}-light/devices
-    ln -s ../${name}${theme}/emblems ${name}${theme}-light/emblems
-    ln -s ../${name}${theme}/mimes ${name}${theme}-light/mimes
-    ln -s ../${name}${theme}/places ${name}${theme}-light/places
-    ln -s ../${name}${theme}/preferences ${name}${theme}-light/preferences
-    ln -s ../../${name}${theme}/status/32 ${name}${theme}-light/status/32
-    ln -s ../../${name}${theme}/status/symbolic ${name}${theme}-light/status/symbolic
   fi
 
   if [[ ${color} == '-dark' ]]; then
@@ -151,10 +122,10 @@ install() {
     mv -f "${THEME_DIR}"/places/scalable/user-trash-full-dark.svg "${THEME_DIR}"/places/scalable/user-trash-full.svg
 
     # Change icon color for dark theme
-    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices,places}/{16,22,24}/*
-    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/apps/{22,32}/*
-    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,devices}/32/*
-    sed -i "s/#363636/#dedede/g" "${THEME_DIR}"/{actions,apps,categories,emblems,devices,mimes,places,status}/symbolic/*
+    sed -i "s/#232629/#fcfcfc/g" "${THEME_DIR}"/apps/{22,32}/*
+    sed -i "s/#232629/#fcfcfc/g" "${THEME_DIR}"/{actions,devices}/32/*
+    sed -i "s/#232629/#fcfcfc/g" "${THEME_DIR}"/{actions,devices,places}/{16,22,24}/*
+    sed -i "s/#232629/#fcfcfc/g" "${THEME_DIR}"/{actions,apps,categories,emblems,devices,mimes,places,status}/symbolic/*
 
     cp -r "${SRC_DIR}"/links/actions/{16,22,24,32,symbolic}                                  "${THEME_DIR}"/actions
     cp -r "${SRC_DIR}"/links/devices/{16,22,24,32,symbolic}                                  "${THEME_DIR}"/devices

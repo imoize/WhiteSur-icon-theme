@@ -88,7 +88,9 @@ Type=Scalable
 [apps/22]
 Size=22
 Context=Applications
-Type=Fixed
+MinSize=8
+MaxSize=24
+Type=Scalable
 
 [apps/32]
 Size=32
@@ -319,7 +321,7 @@ Scale=2
 Context=Animations
 Type=Fixed
 
-[preferences/22]
+[preferences@2x/22]
 Size=22
 Scale=2
 Context=Applications
@@ -333,13 +335,15 @@ MinSize=32
 MaxSize=256
 Type=Scalable
 
-[apps/22]
+[apps@2x/22]
 Size=22
 Scale=2
 Context=Applications
-Type=Fixed
+MinSize=8
+MaxSize=24
+Type=Scalable
 
-[apps/32]
+[apps@2x/32]
 Size=32
 Scale=2
 Context=Applications
@@ -349,7 +353,7 @@ Type=Fixed
 Size=64
 Scale=2
 Context=Applications
-MinSize=16
+MinSize=32
 MaxSize=512
 Type=Scalable
 
