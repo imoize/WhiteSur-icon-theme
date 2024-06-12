@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="a-6" x1="7.937" x2="7.937" y1="15.081" y2="1.852" gradientTransform="matrix(3.7112 0 0 3.7795 .579 -.96853)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#3377f4" offset="0"/>
+   <stop stop-color="#5194f5" offset="1"/>
+  </linearGradient>
+ </defs>
+ <image x="1.559" y=".9995" width="60.882" height="62.001" image-rendering="optimizeQuality" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAPdJREFUSMftl7GuwjAMRY9NXlk6 8P9fycBCaWsGbJTmwQIkMORKVqWo6rm+zWCLmVFKRATI61VZlD0ASXkmIjsgAXtgAHZvwBdgAs7A bGbLQ7h3m4DR6++DnV+Ak9ccKaTsxQQcHJzehJaKNBNwdDNoFnXZ8Scl/t0RGJ13g2dxJ+pqw1ER Ub9cNTp+lsBeRFT9YGgAzg0MgARcG8M14DQE5wbuF+4r6vAO7/AO7/CqcGvMtYAbsDY0cOcFfGoM nwBTM1t9rr40MBBj9NnM1vjnc8zUleEbjnLbZZZsqK+RwGZxiM0lFa6O/qy6sfzWrlZzS/VL/U9X YfxzIl867ocAAAAASUVORK5CYII="/>
+ <rect x="4.5049" y="2.9995" width="54.99" height="56.001" rx="13.748" ry="14" fill="url(#a-6)" style="fill:url(#a-6);stroke-width:1.9819"/>
+ <g fill="#fff">
+  <path d="m18.252 2.9995c-7.6161 0-13.748 6.2441-13.748 14v28c0 7.7561 6.1314 14 13.748 14h27.495c7.6161 0 13.748-6.2441 13.748-14v-28c0-7.7561-6.1314-14-13.748-14zm0 1h27.495c7.0721 0 12.766 5.7981 12.766 13v28c0 7.2021-5.6934 13-12.766 13h-27.495a12.738 12.972 0 0 1-12.766-13v-28c0-7.2021 5.6934-13 12.766-13z" opacity=".15" style="stroke-width:1.9819"/>
+  <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7342">
+   <rect x="16.289" y="15" width="13.748" height="14" rx="1.9639" ry="2"/>
+   <rect x="33.964" y="15" width="13.748" height="14" rx="1.9639" ry="2" opacity=".45"/>
+   <rect x="16.289" y="33" width="13.748" height="14" rx="1.9639" ry="2"/>
+   <rect x="33.964" y="33" width="13.748" height="14" rx="1.9639" ry="2"/>
+  </g>
+ </g>
+</svg>
