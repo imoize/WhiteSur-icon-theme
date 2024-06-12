@@ -1,7 +1,7 @@
 <svg version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
  <defs>
   <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
-        color:#363636;
+        color:#232629;
       }</style>
  </defs>
  <path class="ColorScheme-Text" d="m23 16-5 5 0.70703 0.70703 3.793-3.793v9.0859h1v-9.0859l3.793 3.793 0.70703-0.70703-4-4z" fill="currentColor"/>
