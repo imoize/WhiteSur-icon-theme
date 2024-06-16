@@ -1,21 +1,22 @@
 <svg version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-        <style id="current-color-scheme" type="text/css">
-            .ColorScheme-Text {
-            color: #232629;
-            }
-        </style>
-    </defs>
  <defs>
-  <linearGradient id="linearGradient62" x1="2" x2="46.54" y1="1028.4" y2="1031.1" gradientTransform="matrix(.20455 0 0 .20455 -22.157 -183.88)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4160-4"/>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+            color: #232629;
+            }</style>
+  <linearGradient id="linearGradient2" x1="2" x2="46.54" y1="1028.4" y2="1031.1" gradientTransform="matrix(.20455 0 0 .20455 -25.231 -137.46)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ff7900" offset="0"/>
+   <stop stop-color="#ffb500" offset="1"/>
+  </linearGradient>
+ </defs>
+ <defs>
   <linearGradient id="linearGradient4160-4" x1="2" x2="46.54" y1="1028.4" y2="1031.1" gradientTransform="matrix(.22728 0 0 .22728 -22.227 -206.72)" gradientUnits="userSpaceOnUse">
    <stop stop-color="#ff7900" offset="0"/>
    <stop stop-color="#ffb500" offset="1"/>
   </linearGradient>
  </defs>
- <g transform="translate(-11.768 -1.5066)">
-  <circle transform="rotate(-93.69)" cx="-17.249" cy="26.469" r="4.5" fill="url(#linearGradient4160-4)" style="fill:url(#linearGradient62);stroke-width:.83334"/>
-  <path d="m27.522 12.509c-0.25493 0-0.4595 0.20463-0.4595 0.45953v3.2347c0 0.25498 0.20457 0.45944 0.4595 0.45944h0.0034c0.25493 0 0.4595-0.20446 0.4595-0.45944v-3.2347c0-0.2549-0.20457-0.45953-0.4595-0.45953zm0.0017 5.0776c-0.25573 0-0.46115 0.20548-0.46115 0.46122 0 0.25566 0.20542 0.46114 0.46115 0.46114 0.25573 0 0.46115-0.20548 0.46115-0.46114 0-0.25574-0.20542-0.46122-0.46115-0.46122z" fill="#fff" style="stroke-width:.83334"/>
+ <g transform="translate(-58.29 -1.5856)">
+  <circle transform="rotate(-93.69)" cx="-20.322" cy="72.889" r="4.5" fill="url(#linearGradient4160-4)" style="fill:url(#linearGradient2);stroke-width:.83333"/>
+  <path d="m74.046 13.446c0.48606 0.0037 0.875 0.38814 0.875 0.85712 0 0.47124-0.3927 0.85714-0.88202 0.85714-0.24163 0-0.4375 0.19187-0.4375 0.42857v1.2857c0 0.2367 0.19587 0.42857 0.4375 0.42857 0.24163 0 0.4375-0.19187 0.4375-0.42857v-0.91076c0.75751-0.18954 1.3195-0.85971 1.3195-1.6607 0-0.93977-0.7737-1.6995-1.729-1.7141-0.0046-1.5e-4 -0.0093-2.14e-4 -0.01396-2.14e-4h-0.01404c-0.0046 0-0.0093 6.4e-5 -0.01393 2.14e-4 -0.95535 0.01457-1.729 0.7743-1.729 1.7141 0 0.2367 0.19589 0.42857 0.4375 0.42857 0.24163 0 0.4375-0.19187 0.4375-0.42857 0-0.46898 0.38894-0.85343 0.875-0.85712zm0 5.1428c0.24163 0 0.4375-0.19187 0.4375-0.42857 0-0.2367-0.19587-0.42857-0.4375-0.42857-0.24163 0-0.4375 0.19187-0.4375 0.42857 0 0.2367 0.19587 0.42857 0.4375 0.42857z" clip-rule="evenodd" fill="#333" fill-rule="evenodd" style="fill:#fff;stroke-width:.21429"/>
  </g>
  <path class="ColorScheme-Text" d="m10.545 14.27c-0.9224 0.14727-1.7257 0.72099-2.1864 1.4144-0.02773 0.04625-0.02074 0.14144 0.06285 0.23444l2.0436 2.192c0.31672 0.33478 0.45264 0.38682 0.53899 0.38682 0.09592 0 0.21235-0.04317 0.53899-0.38877l0.47995-0.5138a4.8757 5.0013 0 0 1-1.4779-3.3251z" style="fill:currentColor;opacity:.35"/>
  <path class="ColorScheme-Text" d="m11.004 8.862c-2.5547 0-4.8521 1.2256-6.1098 2.9207-0.06487 0.08493-0.06176 0.18573 0.01714 0.27351l1.3103 1.4398c0.08828 0.0941 0.19278 0.08992 0.2914-0.02931 1.0592-1.2846 2.7624-2.1977 4.4929-2.1881 0.10162-5.7e-4 0.20347 2e-3 0.30473 0.0078a4.8757 5.0013 0 0 1 2.3864-1.9536c-0.83672-0.2997-1.7474-0.47082-2.6931-0.47082z" style="fill:currentColor;opacity:.35"/>

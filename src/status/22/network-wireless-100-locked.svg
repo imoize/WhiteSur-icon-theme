@@ -3,7 +3,7 @@
   <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
             color: #232629;
             }</style>
-  <linearGradient id="linearGradient1-0" x1="2" x2="46.54" y1="1028.4" y2="1031.1" gradientTransform="matrix(.20455 0 0 .20455 -67.929 -124.2)" gradientUnits="userSpaceOnUse">
+  <linearGradient id="linearGradient1" x1="2" x2="46.54" y1="1028.4" y2="1031.1" gradientTransform="matrix(.20455 0 0 .20455 -24.039 -149.35)" gradientUnits="userSpaceOnUse">
    <stop stop-color="#06f" offset="0"/>
    <stop stop-color="#5f8dd3" offset="1"/>
   </linearGradient>
@@ -14,9 +14,9 @@
    <stop stop-color="#ffb500" offset="1"/>
   </linearGradient>
  </defs>
- <g transform="translate(-32.106 -42.744)">
-  <circle transform="rotate(-93.69)" cx="-59.71" cy="44.111" r="4.5" fill="url(#linearGradient4160-4)" style="fill:url(#linearGradient1-0);stroke-width:.83334"/>
-  <path d="m49.79 55.46-1.7134-1.7134h-0.42942v2.1403l-1.4113-1.4121-0.303 0.30301 1.7143 1.7143v0.50904l-1.7143 1.7143 0.303 0.30301 1.4113-1.4121v2.1403h0.42942l1.7134-1.7134v-0.0017l-1.2848-1.2848 1.2848-1.2848v-0.0017zm-0.60516 8.58e-4 -0.98183 0.98183-0.12723-0.12723v-1.9637zm0 2.5714-1.1091 1.1091v-1.9637l0.12723-0.12723 0.98183 0.98183z" style="fill:#fff;stroke-width:.42856"/>
+ <g transform="translate(-46.342 -1.1612)">
+  <circle transform="rotate(-93.69)" cx="-19.129" cy="60.993" r="4.5" fill="url(#linearGradient4160-4)" style="fill:url(#linearGradient1);stroke-width:.83334"/>
+  <path d="m62.098 12.664c-0.831 0-1.5 0.74333-1.5 1.6667-0.4155 0-0.75 0.37167-0.75 0.83333v1.6667c0 0.46167 0.3345 0.83333 0.75 0.83333h3c0.4155 0 0.75-0.37167 0.75-0.83333v-1.6667c0-0.46167-0.3345-0.83333-0.75-0.83333 0-0.92333-0.669-1.6667-1.5-1.6667zm0 0.83333c0.4155 0 0.75 0.37167 0.75 0.83333h-1.5c0-0.46167 0.3345-0.83333 0.75-0.83333z" color="#000000" fill="#232629" fill-rule="evenodd" stroke-linecap="round" stroke-width="1.6667" style="-inkscape-stroke:none;fill:#fff;paint-order:stroke fill markers"/>
  </g>
  <path class="ColorScheme-Text" d="m10.545 14.27c-0.9224 0.14727-1.7257 0.72099-2.1864 1.4144-0.02773 0.04625-0.02074 0.14144 0.06285 0.23444l2.0436 2.192c0.31672 0.33478 0.45264 0.38682 0.53899 0.38682 0.09592 0 0.21235-0.04317 0.53899-0.38877l0.47995-0.5138a4.8757 5.0013 0 0 1-1.4779-3.3251z" style="fill:currentColor"/>
  <path class="ColorScheme-Text" d="m11.004 8.862c-2.5547 0-4.8521 1.2256-6.1098 2.9207-0.06487 0.08493-0.06176 0.18573 0.01714 0.27351l1.3103 1.4398c0.08828 0.0941 0.19278 0.08992 0.2914-0.02931 1.0592-1.2846 2.7624-2.1977 4.4929-2.1881 0.10162-5.7e-4 0.20347 2e-3 0.30473 0.0078a4.8757 5.0013 0 0 1 2.3864-1.9536c-0.83672-0.2997-1.7474-0.47082-2.6931-0.47082z" style="fill:currentColor"/>
